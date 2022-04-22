@@ -1,0 +1,27 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav{
+    background-color:black;
+    height:80px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    max-width:132px;
+    max-height:44.98px;
+}
+
+.side-menu a ,span{
+    margin-right:10px;
+    color:white;
+    text-decoration: none;
+    padding: 2em; 
+
+}
+.side-menu a:hover{
+    color:#1ed760;
+}
