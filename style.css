@@ -2,6 +2,8 @@ body{
     padding:0;
     margin:0;
     font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+    
 }
 nav{
     background-color:black;
@@ -16,12 +18,53 @@ nav{
 }
 
 .side-menu a ,span{
-    margin-right:10px;
+   
     color:white;
     text-decoration: none;
-    padding: 2em; 
+    padding: 1em; 
+    font-weight:bold;
 
 }
 .side-menu a:hover{
     color:#1ed760;
+}
+
+main{
+    height:968px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 65, 171);
+}
+.line{
+    
+    display:block;
+    position: relative;
+    left: 225px;
+  
+}
+.first-line, .second-line{
+    font-size: 146px;
+    font-weight: 900;
+    
+}
+.first-line{
+    position:relative;
+    left: -2.5em;
+    
+}
+.second-line{
+    padding-bottom: 40px;
+}
+.small-one{
+    text-align: center;
+
+    padding-bottom: 40px;
+}
+.free-button{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    height:530px;
 }
