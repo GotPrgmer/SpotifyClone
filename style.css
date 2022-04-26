@@ -15,6 +15,8 @@ nav{
 .logo{
     max-width:132px;
     max-height:44.98px;
+    width:133px;
+    height:43px"
 }
 
 .side-menu a ,span{
@@ -30,6 +32,9 @@ nav{
 }
 
 main{
+    background-image:url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size:175%;
+    background-position: 46% 4%;
     height:968px;
     display:flex;
     justify-content: center;
@@ -38,6 +43,7 @@ main{
 }
 .line{
     
+    color:#1ed760;
     display:block;
     position: relative;
     left: 225px;
@@ -58,13 +64,94 @@ main{
 }
 .small-one{
     text-align: center;
-
+    color:#1ed760;
+    font-size: 18px;
     padding-bottom: 40px;
 }
 .free-button{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+.button-area{
     text-align: center;
 }
 footer{
+    display:flex;
+    justify-content: center;
     background-color: black;
     height:530px;
+    color:white;
+}
+.footer-upper{
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.site div{
+    color:#919496;
+}
+.site a{
+    margin-top:1em;
+    color:white;
+}
+.site{
+    margin-right:1em,1em;
+    padding-right:1em,1em;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+
+}
+.sitemaps{
+    display:flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.icon{
+    width: 40%;
+    display:flex;
+    justify-content:flex-end;
+    color:white;
+    font-size: 24px;
+}
+.icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display:flex;
+    align-items:center;
+    justify-content: center
+}
+.footer-container{
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.info{
+    margin-top: 12px;
+    display:flex;
+    color: #919496;
+    
+}
+.info a {
+    text-decoration: none;
+    color: #919496;
+}
+.country{
+    font-size: 12px;
+    color: #919496;
+    text-align:right;
+}
+.footer-lower{
+    display:flex;
+    align-items: flex-end;
 }
