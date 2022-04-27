@@ -2,7 +2,7 @@ body{
     padding:0;
     margin:0;
     font-family: 'Noto Sans', sans-serif;
-font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     
 }
 nav{
@@ -24,7 +24,7 @@ nav{
     color:white;
     text-decoration: none;
     padding: 1em; 
-    font-weight:bold;
+    
 
 }
 .side-menu a:hover{
@@ -86,31 +86,45 @@ footer{
     background-color: black;
     height:530px;
     color:white;
+    font-weight: 900px;
 }
 .footer-upper{
-    text-align: center;
+    height: 346px;
     display:flex;
     justify-content: space-between;
     
+    
 }
 .site div{
+    margin:20px 0px 20px 0px;
     color:#919496;
+    
 }
 .site a{
-    margin-top:1em;
+    
     color:white;
+    text-decoration: none;
+    padding:3px 0px 15px 0px;
+    
 }
+.site a:hover{
+    color:#1ed760;
+}
+
 .site{
-    margin-right:1em,1em;
-    padding-right:1em,1em;
     display:flex;
     flex-direction:column;
-    text-align:center;
-
+    text-align:left;
+}
+.column{
+    padding: 0px 15px;
+   
+    
 }
 .sitemaps{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     width: 60%;
 }
 .icon{
@@ -119,6 +133,9 @@ footer{
     justify-content:flex-end;
     color:white;
     font-size: 24px;
+}
+.icon :hover{
+    color:#1ed760
 }
 .icon-box{
     width: 54px;
@@ -137,21 +154,27 @@ footer{
     padding-bottom: 50px;
 }
 .info{
-    margin-top: 12px;
-    display:flex;
     color: #919496;
     
 }
+.info-container{
+    margin-top:12px;
+    display:flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
 .info a {
+    margin-right:1.5em;
     text-decoration: none;
     color: #919496;
 }
 .country{
-    font-size: 12px;
+    font-size: 11px;
     color: #919496;
     text-align:right;
 }
 .footer-lower{
     display:flex;
-    align-items: flex-end;
+    flex:end;
 }
